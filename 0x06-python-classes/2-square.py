@@ -5,13 +5,13 @@ Module of a Square class
 
 
 class Square:
-    '''A simple calss that defies a square
+    '''A simple class that defines a square
     Attributes:
         size: The size of the square
     '''
 
-    def __init__(self, s ize=0):
-        '''Initialzaton mehtod for the Square class
+    def __init__(self, size=0):
+        '''Initialization method for the Square class
         Args:
             size(int): The size of the square
         '''
@@ -20,4 +20,4 @@ class Square:
                 raise ValueError("size must be >= 0")
             self.__size = size
         else:
-            rasie TypeError("size must be an integer")
+            raise TypeError("size must be an integer")
