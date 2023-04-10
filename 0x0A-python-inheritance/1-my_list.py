@@ -1,12 +1,18 @@
 #!/usr/bin/python3
-"""
-contains the MyList class
-"""
+'''
+Module contains My_list class
+'''
 
 
 class MyList(list):
-    """Implements sorted printing for the built-in list class."""
+    '''
+    List object
+    Methods:
+        print_sorted: Prints a sorted list
+    '''
 
     def print_sorted(self):
-        """Print a list in sorted ascending order."""
+        '''
+        Prints a sorted list
+        '''
         print(sorted(self))
